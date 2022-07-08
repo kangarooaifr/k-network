@@ -5,7 +5,8 @@
 # ------------------------------------------------------------------------------
 
 # path
-path <- list(project = getwd(),
-             script = "./src/script")
+path <- list('project' = getwd(),
+             'script' = "./src/script",
+             'data' = "./data")
 
 
