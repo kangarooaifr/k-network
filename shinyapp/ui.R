@@ -44,7 +44,8 @@ body <- dashboardBody(
             
             fluidRow(
               column(width = 10, wellPanel(contact_table_UI("contact"),
-                                           delete_BTN("contact"))),
+                                           delete_BTN("contact")),
+                     contact_plot_UI("contact")),
               column(width = 2, wellPanel(contact_INPUT("contact"))))
             
             )

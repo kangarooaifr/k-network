@@ -43,3 +43,15 @@ delete_BTN <- function(id){
   
 }
 
+
+# -- delete btn
+contact_plot_UI <- function(id){
+  
+  # namespace
+  ns <- NS(id)
+  
+  # form
+  plotOutput(ns("contact_plot"), height = "auto")
+  
+}
+
