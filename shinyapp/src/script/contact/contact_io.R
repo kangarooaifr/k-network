@@ -17,6 +17,9 @@ load_contacts <- function(path, file, colClasses){
   # format
   data$date <- as.Date(data$date)
   
+  # sort 
+  data <- data[order(data$date, decreasing = TRUE), ]
+  
   # return
   data
   
